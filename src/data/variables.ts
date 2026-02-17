@@ -87,8 +87,8 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
         label: 'Wave Speed',
         description: 'Controls how fast the wave moves',
         min: 0.1,
-        max: 3,
-        step: 0.1,
+        max: 10,
+        step: 1,
         color: '#3B82F6',
     },
 
