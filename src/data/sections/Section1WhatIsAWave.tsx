@@ -56,6 +56,8 @@ export const section1Blocks: ReactElement[] = [
                 <InlineTooltip
                     id="tooltip-updown"
                     tooltip="Waves move in a smooth, continuous up-and-down motion"
+                color="#D81B60"
+                bgColor="rgba(216, 27, 96, 0.15)"
                 >
                     up and down
                 </InlineTooltip>{" "}
