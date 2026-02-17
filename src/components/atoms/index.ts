@@ -120,3 +120,6 @@ export { FlowDiagram } from "./visual/FlowDiagram";
 export type { FlowNode, FlowEdge, FlowDiagramProps } from "./visual/FlowDiagram";
 export { ExpandableFlowDiagram } from "./visual/ExpandableFlowDiagram";
 export type { TreeNode, TreeEdge, ExpandableFlowDiagramProps } from "./visual/ExpandableFlowDiagram";
+
+// Visual — Custom Wave Animation
+export { SimpleWaveAnimation } from "./visual/SimpleWaveAnimation";

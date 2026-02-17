@@ -78,8 +78,19 @@ export interface VariableDefinition {
  */
 export const variableDefinitions: Record<string, VariableDefinition> = {
     // ========================================
-    // ADD YOUR VARIABLES HERE
+    // SINE WAVE LESSON VARIABLES
     // ========================================
+
+    waveSpeed: {
+        defaultValue: 1,
+        type: 'number',
+        label: 'Wave Speed',
+        description: 'Controls how fast the wave moves',
+        min: 0.1,
+        max: 3,
+        step: 0.1,
+        color: '#3B82F6',
+    },
 
     // Uncomment and modify these examples for your lesson:
 

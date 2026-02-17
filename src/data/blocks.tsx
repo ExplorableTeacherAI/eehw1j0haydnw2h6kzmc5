@@ -1,4 +1,5 @@
 import { type ReactElement } from "react";
+import { section1Blocks } from "./sections/Section1WhatIsAWave";
 // import { Block } from "@/components/templates";
 // import { FullWidthLayout, SplitLayout, GridLayout, SidebarLayout, Sidebar, Main } from "@/components/layouts";
 
@@ -84,19 +85,6 @@ initializeVariableColors(variableDefinitions);
  */
 
 export const blocks: ReactElement[] = [
-    // Start adding your blocks here!
-
-    // Example (ALWAYS use EditableParagraph and EditableH1/H2/H3 — never plain <p> or <h1>):
-    /*
-    <FullWidthLayout key="layout-welcome" maxWidth="xl">
-        <Block id="block-welcome" padding="md">
-            <EditableH1 id="h1-welcome" blockId="block-welcome">
-                Welcome to MathVibe
-            </EditableH1>
-            <EditableParagraph id="para-welcome" blockId="block-welcome">
-                Start building your interactive lesson.
-            </EditableParagraph>
-        </Block>
-    </FullWidthLayout>
-    */
+    // Section 1: What is a Wave?
+    ...section1Blocks,
 ];
